@@ -599,14 +599,14 @@ class int_reg:
 
 def __main__():
   # read argument from command lind
-  input_argv = str(sys.argv[1])
-  f = open(input_argv, 'r')
-  insts = f.readlines()   # read instructions from text file
+  #input_argv = str(sys.argv[1])
+  #f = open(input_argv, 'r')
+  #insts = f.readlines()   # read instructions from text file
 
   # read input from pwd
-  #f = open("sample4.txt", 'r')
-  #insts = f.readlines()   # read instructions from text file
-  #f.close()
+  f = open("sample4.txt", 'r')
+  insts = f.readlines()   # read instructions from text file
+  f.close()
 
   adder_num = 3
   multiplier_num = load_buffer_num = store_buffer_num = 2  
