@@ -12,7 +12,8 @@ The simulator is to execute the six instructions: L.D、S.D、ADD.D、SUB.D、MU
 input: xxx.txt (which is the instructions) <br> 
 output: output.txt (clock by clock status of Register_result_state, Resevation_Station, Load/Store_Buffer and Memory) <br> 
 
-Sample instructions (sample.txt):<br>
+Sample instructions:<br>
+for example, in sample.txt contains the following intructions:
 ```bash
 L.D F2, 8(R1)
 L.D F4, 16(R0)
