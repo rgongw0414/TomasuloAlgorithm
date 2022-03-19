@@ -13,6 +13,8 @@ Computer Architecture Lab2 project
 ```bash
 python3 project.py xxxxxx.txt
 python3 project.py sample.txt
+python3 project.py test.txt
+...
 ```
 
 ### Input: xxx.txt(which is the instructions) <br> 
