@@ -1,8 +1,6 @@
-Tomasulo Algorithm
-=
-Computer Architecture Lab2 project
----
-### Implement a simulator for Tomasulo algorithm.  
+## Tomasulo Algorithm (Computer Architecture Lab2)
+
+### Simulator for Tomasulo algorithm
 - In this simulator, there are three **adders**, two **multipliers**, two **load buffers**, and two **store buffers**.  <br> 
 - The simulator is to execute the six instructions: **L.D、S.D、ADD.D、SUB.D、MUL.D、DIV.D.**  <br> 
 - The **execution steps(clock cycles)** of L.D, S.D., ADD.D, SUB.D, MUL.D, and DIV.D are **2, 1, 2, 2, 10, and 40**, respectively.  <br> 
