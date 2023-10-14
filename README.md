@@ -3,9 +3,11 @@
 ### Simulator for Tomasulo algorithm
 - In this simulator, there are three **adders**, two **multipliers**, two **load buffers**, and two **store buffers**.  <br> 
 - The simulator is to execute the six instructions: **L.D、S.D、ADD.D、SUB.D、MUL.D、DIV.D.**  <br> 
-- The **execution steps(clock cycles)** of L.D, S.D., ADD.D, SUB.D, MUL.D, and DIV.D are **2, 1, 2, 2, 10, and 40**, respectively.  <br> 
-
-(浮點數暫存器有16個，編號為F0、F2、F4、…、F30，初始值為1；整數暫存器有32個，編號為R0、R1、…、R31，除R1的初始值為16外，其餘整數暫存器初始值為0；記憶體為8個雙精準的空間(64 Bytes)，初始值為1) <br>  <br> 
+- The **execution steps(clock cycles)** of L.D, S.D., ADD.D, SUB.D, MUL.D, and DIV.D are **2, 1, 2, 2, 10, and 40**, respectively.  <br>
+- Resources
+	- 16 Floating-point register: F0, F2, …, and F30;
+	- 32 integer registers: R0, R1, …, and R31;
+	- Memory: 8 double-precision floating-point slot (totally 64 Bytes) <br>  <br> 
 
 ### How to use: <br>
 ```bash
